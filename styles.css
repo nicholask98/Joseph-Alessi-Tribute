@@ -1,0 +1,155 @@
+
+                  /*================
+                  General Styles
+                  ================*/
+body {
+  background-color: white;
+  background-size: auto;
+  margin: 0;
+}
+
+h1 {
+  color: black;
+  font-size: 7vw;
+  text-align: center;
+  margin-top: 40px;
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+
+.image img {
+  display: block;
+  width: 30vw;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 3px 1px black;
+}
+
+                  /*----------
+                  Button Styles
+                  -----------*/
+
+.button {
+  background-color: #00751F;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-family: impact, fantasy;
+  font-size: 3vw;
+  width: 20vw;
+  height: 12vw;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px 1px black;
+}
+
+.button:hover {
+  background-color: #008A24
+}
+
+.button:active {
+  background-color: blue;
+}
+
+#slidearea {
+  float: left;
+  margin-left: 10vw;
+}
+
+#alessimusicstudios {
+  float: right;
+  margin-right: 10vw;
+}
+
+
+                  /*================
+                     Table Styles
+                  ================*/
+
+td, th, h2 {
+  text-align: center;
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+
+th {
+  text-transform: uppercase;
+}
+
+
+                  /*================
+                   Timeline Styles
+                  ================*/
+
+
+.timeline {
+  clear: left;
+  float: left;
+  padding-top: 0;
+  color: black;
+  width: 65%;
+  margin-bottom: 100px;
+}
+
+.timeline table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.timeline td, .timeline th {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+th {
+  text-transform: uppercase;
+}
+
+.date {
+  width: 20%;
+}
+
+.event {
+  width: 79%;
+}
+
+                  /*================
+                  Ensembles Styles
+                  ================*/
+
+
+.ensembles {
+  color: black;
+  float: right;
+  width: 34%;
+}
+
+.ensembles table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ensembles td, .ensembles th {
+  background-color: lightgrey;
+  color: black;
+  border-radius: 3px;
+}
+
+
+                  /*================
+                     Footer Styles
+                  ================*/
+
+.f-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 4vw;
+  margin-left: 0;
+}
+
+.f-container p {
+  float: right;
+  margin-right: 20px;
+  color: white;
+  margin-top: 1vw;
+}
